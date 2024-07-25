@@ -31,8 +31,8 @@ const Calculator: React.FC = () =>{
                     <button type="submit">Submit Me</button>
                 </div>
                 <div>
-                    <label htmlFor="dogAge">Dog Age</label>
-                    {dogAge && <h3>You are {dogAge} years old in Dog Years</h3>}
+                    
+                    {dogAge && <h3>You are {dogAge.toFixed(0)} years old in Dog Years</h3>}
 
                 </div>
             </form>
